@@ -3,19 +3,19 @@ vim.opt.number = true         -- display line numbers
 vim.opt.relativenumber = true -- display relative line numbers
 vim.opt.nu = true
 
+vim.opt.clipboard = "unnamedplus"
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 
-vim.opt.tabstop = 4
-vim.opt.softtabstop = 4
-vim.opt.shiftwidth = 4
+vim.opt.tabstop = 2
+vim.opt.softtabstop = 2
+vim.opt.shiftwidth = 2
 vim.opt.expandtab = true
 
 vim.opt.autoindent = true
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
 vim.opt.backspace = "indent,eol,start"
-vim.opt.clipboard:append("unnamedplus")
 vim.opt.splitright = true
 vim.opt.splitbelow = true
 
